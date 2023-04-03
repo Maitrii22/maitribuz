@@ -1,0 +1,74 @@
+body{
+  background-color: black;
+}
+
+header{
+    
+    padding: 20px;
+    color: blanchedalmond;
+    position: sticky;
+
+}
+
+.logo{
+display: inline-block;
+width: 120px;
+top: 70%;
+text-align: center;
+position: absolute;
+font-size: large;
+cursor: pointer;
+
+}
+
+
+.navbar{
+width: 600px;
+display: inline-block;
+position: absolute;
+right: 20px;
+}
+
+
+.navbar>a{
+    color: white;
+margin: 20px;
+text-decoration: none;
+}
+
+ 
+.navbar>a:hover{
+    color: rgb(245, 179, 231);
+
+}
+#HOME{
+    color: rgb(6, 56, 6);
+}
+
+.heading{
+    color: salmon;
+    font-size: 8opx;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:absolute;
+    text-align: start;
+    width: 500px;
+    top: 160px;
+    left: 800px;
+}
+
+.heading+p{
+    color:wheat;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+width: 400px;
+left: 800px;
+right: 30px;
+top: 350px;
+word-spacing: 4px;
+}
+.footer-contact{
+ text-align: center;
+
+ padding: 3px;
+ color: white;
+}
